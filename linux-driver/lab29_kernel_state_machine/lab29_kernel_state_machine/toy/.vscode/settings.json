@@ -1,0 +1,6 @@
+{
+    "files.associations": {
+        "web_server.h": "c",
+        "algorithm": "c"
+    }
+}

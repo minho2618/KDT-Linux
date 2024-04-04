@@ -1,0 +1,5 @@
+
+config KDT_HELLO
+	tristate "KDT hello module"
+	help
+	  kdt basic module

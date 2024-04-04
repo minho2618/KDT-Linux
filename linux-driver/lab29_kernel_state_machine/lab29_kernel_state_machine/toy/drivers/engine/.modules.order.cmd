@@ -1,0 +1,1 @@
+cmd_/home/kesl/grepp/3.device_driver/labs/lab29_kernel_state_machine/toy_sol/drivers/engine/modules.order := {   echo /home/kesl/grepp/3.device_driver/labs/lab29_kernel_state_machine/toy_sol/drivers/engine/engine.ko; :; } | awk '!x[$$0]++' - > /home/kesl/grepp/3.device_driver/labs/lab29_kernel_state_machine/toy_sol/drivers/engine/modules.order

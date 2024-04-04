@@ -1,0 +1,16 @@
+/dts-v1/;
+/plugin/;
+/ {
+	compatible = "brcm,bcm2835";
+	fragment@0 {
+		target-path = "/";
+		__overlay__ {
+			kdt_device {
+				compatible = "brcm,kdtdev";
+				status = "okay";
+				string_value = "KDT String value";
+				int_value = <5>;
+			};
+		};
+	};
+};
